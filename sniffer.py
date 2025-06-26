@@ -1,9 +1,9 @@
-# sniffer.py
-from scapy.all import sniff, IP
-from logger import insert_packet, create_db
-from datetime import datetime
+# Final version of sniffer.py
 
-create_db()
+# sniffer.py
+from scapy.all import sniff, IP, TCP, UDP
+import time
+from logger import insert_packet
 
 def process_packet(packet):
     if IP in packet:
@@ -11,9 +11,28 @@ def process_packet(packet):
         dst_ip = packet[IP].dst
         proto = packet[IP].proto
         length = len(packet)
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        insert_packet(src_ip, dst_ip, str(proto), length, timestamp)
-        print(f"[LOG] {src_ip} → {dst_ip} | Protocol: {proto} | Len: {length}")
+        timestamp = time.time()
 
-print("[*] Starting packet capture... Press CTRL+C to stop.")
-sniff(prn=process_packet, store=0)
+        # Default values
+        src_port = dst_port = ttl = flags = window_size = None
+
+        ttl = packet[IP].ttl
+
+        if TCP in packet:
+            src_port = packet[TCP].sport
+            dst_port = packet[TCP].dport
+            flags = str(packet[TCP].flags)
+            window_size = packet[TCP].window
+            protocol = "TCP"
+        elif UDP in packet:
+            src_port = packet[UDP].sport
+            dst_port = packet[UDP].dport
+            protocol = "UDP"
+        else:
+            protocol = "Other"
+
+        print(f"[PACKET] {src_ip}:{src_port} → {dst_ip}:{dst_port} | Proto: {protocol} | Len: {length} | Flags: {flags} | TTL: {ttl} | Win: {window_size} | Time: {timestamp}")
+        insert_packet(src_ip, dst_ip, src_port, dst_port, protocol, length, flags, ttl, window_size, timestamp)
+
+print("[*] Starting packet capture... ")
+sniff(prn=process_packet, store=False, filter="ip")

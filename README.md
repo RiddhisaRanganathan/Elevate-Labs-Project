@@ -4,6 +4,9 @@
 
 This project is a lightweight Intrusion Detection System (IDS) built using Python, Scapy, SQLite, and a machine learning model for anomaly detection. It captures network packets, extracts meaningful features, and flags suspicious traffic based on trained behavior.
 
+## Background
+I first tested my project using the NSL-KDD dataset to make sure the machine learning model and code were working correctly. After that, I used my own captured network packets to retrain the model. Now the system works fully on real packet data collected from my network, and it can detect anomalies based on that.
+
 ---
 
 ## Features Implemented

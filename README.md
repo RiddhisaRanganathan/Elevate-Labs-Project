@@ -6,7 +6,7 @@ This project is a lightweight Intrusion Detection System (IDS) built using Pytho
 
 ---
 
-## 🔧 Features Implemented
+## Features Implemented
 
 ### Packet Sniffing
 - Captures network traffic using `scapy`

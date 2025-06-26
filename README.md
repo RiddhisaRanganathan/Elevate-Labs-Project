@@ -1,24 +1,3 @@
 # Elevate-Labs-Project
 
-lightweight_ids_project/
-│
-├── sniff/
-│   ├── sniffer.py              # Capture packets
-│   └── logger.py               # Log to SQLite
-│
-├── ml/
-│   ├── train_model.py          # Train on labeled dataset
-│   └── anomaly_detector.py     # Real-time detection
-│
-├── alert/
-│   └── alerter.py              # Send alerts/logs
-│
-├── web_dashboard/  (optional)
-│   ├── app.py                  # Flask backend
-│   ├── templates/index.html    # Web frontend
-│   └── static/js/script.js     # JS for updates
-│
-├── dataset/                    # Sample dataset for training
-│   └── nsl_kdd.csv
-│
-└── README.md                   # Project explanation
+<pre> lightweight_ids_project/ ├── dataset/ │ ├── KDDTest.txt # NSL-KDD test dataset │ └── KDDTrain.txt # NSL-KDD train dataset │ ├── ml/ │ ├── anomaly_detector.py # Detects anomalies using trained model │ ├── anomaly_model.pkl # Trained Isolation Forest model │ ├── scaler.pkl # StandardScaler object used in training │ └── train_model.py # Trains model on packets.db features │ ├── sniff/ │ ├── __init__.py # Marks the sniff folder as a module │ ├── logger.py # Logs packet features to packets.db │ ├── result.py # Displays saved packet records │ └── sniffer.py # Captures and processes live packets │ ├── packets.db # SQLite database storing sniffed packets </pre>

@@ -47,3 +47,7 @@ I first tested my project using the NSL-KDD dataset to make sure the machine lea
 - 2. After collecting a sufficient number of packets, run train_model.py to train a machine learning model and generate the scaler and classifier files.
 - 3. Once the model is trained, run anomaly_detector.py to analyze the latest captured packets and classify them as normal or anomalous.
 - 4. To continuously monitor packet logs and raise alerts if too many anomalies are found, run alerter.py. It internally schedules periodic checks without needing a separate scheduler setup.
+ 
+### Output:
+
+Results have been added both as screenshot and as text in this repository itself.

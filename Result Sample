@@ -1,0 +1,240 @@
+## Sample result from running the code.
+
+[*] Running scheduled anomaly check...
+[*] Monitoring for abnormal traffic...
+
+=== Anomaly Detection Results ===
+Packet 1: Normal
+Packet 2: Normal
+Packet 3: Normal
+Packet 4: Anomaly
+Packet 5: Normal
+Packet 6: Normal
+Packet 7: Normal
+Packet 8: Normal
+Packet 9: Anomaly
+Packet 10: Normal
+Packet 11: Normal
+Packet 12: Anomaly
+Packet 13: Normal
+Packet 14: Normal
+Packet 15: Normal
+Packet 16: Normal
+Packet 17: Anomaly
+Packet 18: Normal
+Packet 19: Normal
+Packet 20: Normal
+Packet 21: Normal
+Packet 22: Normal
+Packet 23: Normal
+Packet 24: Anomaly
+Packet 25: Normal
+Packet 26: Normal
+Packet 27: Normal
+Packet 28: Normal
+Packet 29: Normal
+Packet 30: Anomaly
+Packet 31: Normal
+Packet 32: Normal
+Packet 33: Normal
+Packet 34: Normal
+Packet 35: Normal
+Packet 36: Normal
+Packet 37: Normal
+Packet 38: Normal
+Packet 39: Anomaly
+Packet 40: Normal
+Packet 41: Normal
+Packet 42: Normal
+Packet 43: Normal
+Packet 44: Normal
+Packet 45: Anomaly
+Packet 46: Normal
+Packet 47: Normal
+Packet 48: Normal
+Packet 49: Normal
+Packet 50: Normal
+Packet 51: Normal
+Packet 52: Normal
+Packet 53: Normal
+Packet 54: Normal
+Packet 55: Normal
+Packet 56: Anomaly
+Packet 57: Normal
+Packet 58: Normal
+Packet 59: Normal
+Packet 60: Normal
+Packet 61: Normal
+Packet 62: Normal
+Packet 63: Normal
+Packet 64: Normal
+Packet 65: Anomaly
+Packet 66: Normal
+Packet 67: Normal
+Packet 68: Normal
+Packet 69: Anomaly
+Packet 70: Anomaly
+Packet 71: Normal
+
+Anomalies in last 100 packets: 12
+🚨 ALERT: Too many anomalies detected!
+
+
+[*] Running scheduled anomaly check...
+[*] Monitoring for abnormal traffic...
+
+=== Anomaly Detection Results ===
+Packet 1: Normal
+Packet 2: Normal
+Packet 3: Anomaly
+Packet 4: Normal
+Packet 5: Normal
+Packet 6: Normal
+Packet 7: Anomaly
+Packet 8: Normal
+Packet 9: Normal
+Packet 10: Normal
+Packet 11: Normal
+Packet 12: Normal
+Packet 13: Normal
+Packet 14: Normal
+Packet 15: Normal
+Packet 16: Anomaly
+Packet 17: Normal
+Packet 18: Normal
+Packet 19: Normal
+Packet 20: Normal
+Packet 21: Normal
+Packet 22: Normal
+Packet 23: Normal
+Packet 24: Normal
+Packet 25: Anomaly
+Packet 26: Normal
+Packet 27: Normal
+Packet 28: Normal
+Packet 29: Normal
+Packet 30: Anomaly
+Packet 31: Normal
+Packet 32: Normal
+Packet 33: Normal
+Packet 34: Normal
+Packet 35: Normal
+Packet 36: Normal
+Packet 37: Normal
+Packet 38: Normal
+Packet 39: Normal
+Packet 40: Normal
+Packet 41: Anomaly
+Packet 42: Normal
+Packet 43: Normal
+Packet 44: Anomaly
+Packet 45: Normal
+Packet 46: Normal
+Packet 47: Normal
+Packet 48: Normal
+Packet 49: Normal
+Packet 50: Normal
+Packet 51: Normal
+Packet 52: Normal
+Packet 53: Normal
+Packet 54: Anomaly
+Packet 55: Normal
+Packet 56: Normal
+Packet 57: Normal
+Packet 58: Normal
+Packet 59: Normal
+Packet 60: Normal
+Packet 61: Normal
+Packet 62: Normal
+Packet 63: Anomaly
+Packet 64: Normal
+Packet 65: Normal
+Packet 66: Normal
+Packet 67: Anomaly
+Packet 68: Normal
+Packet 69: Normal
+Packet 70: Normal
+Packet 71: Normal
+
+Anomalies in last 100 packets: 12
+🚨 ALERT: Too many anomalies detected!
+
+
+[*] Running scheduled anomaly check...
+[*] Monitoring for abnormal traffic...
+
+=== Anomaly Detection Results ===
+Packet 1: Normal
+Packet 2: Anomaly
+Packet 3: Normal
+Packet 4: Normal
+Packet 5: Normal
+Packet 6: Normal
+Packet 7: Normal
+Packet 8: Normal
+Packet 9: Normal
+Packet 10: Normal
+Packet 11: Anomaly
+Packet 12: Normal
+Packet 13: Normal
+Packet 14: Normal
+Packet 15: Normal
+Packet 16: Normal
+Packet 17: Normal
+Packet 18: Anomaly
+Packet 19: Normal
+Packet 20: Normal
+Packet 21: Normal
+Packet 22: Normal
+Packet 23: Normal
+Packet 24: Normal
+Packet 25: Normal
+Packet 26: Anomaly
+Packet 27: Normal
+Packet 28: Normal
+Packet 29: Normal
+Packet 30: Normal
+Packet 31: Normal
+Packet 32: Normal
+Packet 33: Anomaly
+Packet 34: Normal
+Packet 35: Normal
+Packet 36: Normal
+Packet 37: Normal
+Packet 38: Normal
+Packet 39: Normal
+Packet 40: Normal
+Packet 41: Normal
+Packet 42: Normal
+Packet 43: Anomaly
+Packet 44: Normal
+Packet 45: Normal
+Packet 46: Normal
+Packet 47: Normal
+Packet 48: Normal
+Packet 49: Normal
+Packet 50: Normal
+Packet 51: Normal
+Packet 52: Normal
+Packet 53: Anomaly
+Packet 54: Normal
+Packet 55: Normal
+Packet 56: Normal
+Packet 57: Normal
+Packet 58: Normal
+Packet 59: Anomaly
+Packet 60: Normal
+Packet 61: Normal
+Packet 62: Normal
+Packet 63: Normal
+Packet 64: Anomaly
+Packet 65: Normal
+Packet 66: Normal
+Packet 67: Normal
+Packet 68: Normal
+Packet 69: Normal
+Packet 70: Normal
+Packet 71: Normal
+
+Anomalies in last 100 packets: 13
+🚨 ALERT: Too many anomalies detected!
